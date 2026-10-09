@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+# Redirect old .html addresses to their clean form, e.g. /consulting.html -> /consulting
+RewriteCond %{THE_REQUEST} \s/+([^?\s]*?)\.html[\s?]
+RewriteRule ^ /%1 [R=301,L,NE]
+RewriteRule ^index$ / [R=301,L]

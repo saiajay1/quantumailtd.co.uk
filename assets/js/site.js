@@ -239,7 +239,7 @@
     });
   });
 
-  // A link like industries.html#healthcare opens that sector's tab.
+  // A link like /industries#healthcare opens that sector's tab.
   if (location.hash) {
     const target = document.getElementById(location.hash.slice(1));
     const tab = target && target.getAttribute('role') === 'tabpanel' && document.querySelector(`[aria-controls="${target.id}"]`);
@@ -271,7 +271,7 @@
       const score = sets.reduce((a, s) => a + +$('input:checked', s).value, 0);
       const band = BANDS.find(b => score <= b.max);
       sets.forEach(s => s.hidden = true); nav2.hidden = true; meter.style.width = '100%'; count.textContent = 'Complete';
-      out.innerHTML = `<p class="mono">Your score</p><p class="score">${score}<span style="font-size:.35em;opacity:.5"> / 12</span></p><h3 class="h3">${band.title}</h3><p>${band.text}</p><div class="btns"><a class="btn btn--light" href="contact.html?topic=consulting">${band.cta}</a><button class="btn btn--line-light" type="button" data-quiz="restart">Start again</button></div>`;
+      out.innerHTML = `<p class="mono">Your score</p><p class="score">${score}<span style="font-size:.35em;opacity:.5"> / 12</span></p><h3 class="h3">${band.title}</h3><p>${band.text}</p><div class="btns"><a class="btn btn--light" href="/contact?topic=consulting">${band.cta}</a><button class="btn btn--line-light" type="button" data-quiz="restart">Start again</button></div>`;
       result.hidden = false;
       $('[data-quiz="restart"]', out).addEventListener('click', () => { quiz.reset(); i = 0; result.hidden = true; nav2.hidden = false; show(); });
     });
