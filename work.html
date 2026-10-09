@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Privacy notice | Quantum AI</title>
-<meta name="description" content="How Quantum AI Ltd collects and uses personal data from this website and enquiries.">
-<link rel="canonical" href="https://quantumailtd.co.uk/privacy">
+<title>Our work | Quantum AI</title>
+<meta name="description" content="Models and projects built by Quantum AI, with published results, methods and limitations.">
+<link rel="canonical" href="https://quantumailtd.co.uk/work">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Quantum AI">
-<meta property="og:title" content="Privacy notice | Quantum AI">
-<meta property="og:description" content="How Quantum AI Ltd collects and uses personal data from this website and enquiries.">
+<meta property="og:title" content="Our work | Quantum AI">
+<meta property="og:description" content="Models and projects built by Quantum AI, with published results, methods and limitations.">
 <meta name="theme-color" content="#EEF0F7">
 <link rel="icon" href="/assets/img/mark.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
           </a>
         </div>
       </li>
-      <li><a class="nav__link" data-nav="work" href="/work">Our work</a></li>
+      <li><a class="nav__link" data-nav="work" aria-current="page" href="/work">Our work</a></li>
       <li><a class="nav__link" data-nav="industries" href="/industries">Industries</a></li>
       <li><a class="nav__link" data-nav="approach" href="/approach">How we work</a></li>
       <li><a class="nav__link" data-nav="responsible" href="/responsible-ai">Responsible AI</a></li>
@@ -77,33 +77,44 @@
 
 <main id="main">
 <section class="page-hero page-hero--short" aria-labelledby="h1">
+  <canvas class="field" data-field="calm" aria-hidden="true"></canvas>
   <div class="wrap page-hero__inner">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span aria-current="page">Privacy</span></nav>
-    <h1 id="h1" class="display-l">Privacy notice</h1>
-    <p class="article-meta mono">Last updated October 2026</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span aria-current="page">Our work</span></nav>
+    <p class="eyebrow mono">Our work</p>
+    <h1 id="h1" class="display-xl hero-lines" style="max-width:12ch"><span class="line"><span>Proof, not</span></span><span class="line"><span class="accent">promises.</span></span></h1>
+    <div class="hero-fade"><p class="lede">Models we’ve built and published, each with its results, test method and limitations, so you can judge the work for yourself.</p></div>
   </div>
 </section>
-<div class="wrap" style="padding-bottom:120px">
-  <article class="prose">
-    <h2>Who we are</h2>
-    <p>Quantum AI Ltd is a company registered in England and Wales (company number 16694863), with its registered office at 153b Sutton Lane, Hounslow, England, TW3 4JW. We are the controller of the personal data described in this notice. You can contact us about privacy at <a href="mailto:roopa@quantumailtd.co.uk">roopa@quantumailtd.co.uk</a>.</p>
-    <h2>What we collect</h2>
-    <p>When you contact us, we receive the details you choose to send, such as your name, email address, company and the contents of your message. The contact form on this site doesn’t send data to us directly. It opens your own email app with your message ready to send.</p>
-    <p>This website doesn’t use advertising or analytics cookies. The AI readiness check runs entirely in your browser, and your answers aren’t sent to us. The site loads fonts from Google Fonts and a scrolling library from jsDelivr, which means those providers receive your IP address when you visit.</p>
-    <h2>Why we use it</h2>
-    <p>We use your details to reply to your enquiry and, if we go on to work together, to manage that relationship. Our lawful basis is our legitimate interest in responding to people who contact us, or taking steps at your request before entering into a contract.</p>
-    <h2>How long we keep it</h2>
-    <p>We keep enquiry emails for up to 24 months unless they lead to a contract. In that case we keep records for as long as the law requires.</p>
-    <h2>Who we share it with</h2>
-    <p>We don’t sell your data. Our email and hosting providers process it on our behalf under contract. We will only share it with anyone else if the law requires us to.</p>
-    <h2>Client project data</h2>
-    <p>When we process personal data for clients during a project, we act as their processor under a written data processing agreement. That data is covered by the client’s own privacy notice and our contract with them, not by this notice.</p>
-    <h2>Your rights</h2>
-    <p>Under UK GDPR you can ask to access, correct or delete the personal data we hold about you, restrict or object to how we use it, and ask for a copy in a portable format. Email us to make a request. If you’re unhappy with how we’ve handled your data, you can complain to the Information Commissioner’s Office at <a href="https://ico.org.uk" rel="noopener">ico.org.uk</a>.</p>
-  </article>
-</div>
+
+<section class="block" aria-labelledby="list-h">
+  <div class="wrap">
+    <h2 id="list-h" class="sr-only">Projects</h2>
+    <div class="grid grid--2">
+      <a class="post reveal" href="/work-uk-pii-redactor">
+        <div class="post__art"><canvas data-art="77" aria-hidden="true"></canvas></div>
+        <div class="post__body">
+          <span class="mono">Custom model · Privacy</span>
+          <h3 class="h3">UK PII Redactor</h3>
+          <p>A small model that masks UK personal data offline on a laptop. On messages it had never seen, it leaked 2.1% of personal data (0% with safety layers), compared with 55% for pattern-matching rules.</p>
+          <span class="post__more">Read the case study →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 </main>
 
+<section class="cta-band" aria-labelledby="cta-h">
+  <canvas class="field" data-field="cta" aria-hidden="true"></canvas>
+  <div class="wrap cta-band__inner">
+    <p class="eyebrow mono">Start a conversation</p>
+    <h2 id="cta-h" class="display-l">Tell us the problem.<br>We’ll tell you honestly if AI can solve it.</h2>
+    <div class="btns">
+      <a class="btn btn--light" href="/contact">Book a free 30-minute call <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      <a class="btn btn--line-light" href="/approach">See how we work</a>
+    </div>
+  </div>
+</section>
 
 
 <footer class="footer">
