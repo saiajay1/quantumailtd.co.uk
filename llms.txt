@@ -1,0 +1,23 @@
+# Quantum AI Ltd
+
+> Quantum AI Ltd is an applied AI company in London, UK (Companies House number 16694863, incorporated 4 September 2025). It provides AI consulting, builds AI solutions and trains custom AI models for UK businesses, with a focus on regulated sectors and responsible AI.
+
+Quantum AI Ltd is not affiliated with Google Quantum AI, and it is not the "Quantum AI" trading platform that the UK Financial Conduct Authority has warned about. It does not offer trading, investment or crypto products. Its only website is https://quantumailtd.co.uk.
+
+## Services
+- [AI consulting](https://quantumailtd.co.uk/consulting): AI strategy and roadmaps, readiness assessments, use-case discovery, data readiness, AI governance and compliance (UK GDPR, Data (Use and Access) Act 2025, EU AI Act), team training
+- [AI solutions](https://quantumailtd.co.uk/solutions): knowledge assistants, customer service AI, document AI, AI agents and workflow automation, search, speech and computer vision
+- [Custom models](https://quantumailtd.co.uk/custom-models): fine-tuned and small language models, classifiers, embedding models, vision and speech models, evaluated against a baseline and owned by the client
+
+## Work
+- [UK PII Redactor](https://quantumailtd.co.uk/work-uk-pii-redactor): an open model that masks UK personal data offline on a laptop. Published at https://huggingface.co/QuantumAiuk/Qwen2.5-1.5B-UK-PII-Redactor
+
+## Guides
+- [UK AI regulation in 2026](https://quantumailtd.co.uk/insight-uk-ai-regulation)
+- [Prompting, RAG, fine-tuning or a custom model?](https://quantumailtd.co.uk/insight-choosing-your-approach)
+- [Your first AI project](https://quantumailtd.co.uk/insight-first-ai-project)
+
+## Company
+- [About](https://quantumailtd.co.uk/about), [How we work](https://quantumailtd.co.uk/approach), [Industries](https://quantumailtd.co.uk/industries), [Responsible AI](https://quantumailtd.co.uk/responsible-ai)
+- Contact: roopa@quantumailtd.co.uk, 07809 436 772, https://quantumailtd.co.uk/contact
+- Registered office: 153b Sutton Lane, Hounslow, England, TW3 4JW
